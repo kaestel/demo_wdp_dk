@@ -1,0 +1,185 @@
+
+/*s-fonts.css*/
+@font-face {
+	font-family: 'AvenirNextLTMedium';
+	src: url('/css/fonts/AvenirNextLTMedium.woff') format('woff'),
+		 url('/css/fonts/AvenirNextLTMedium.ttf') format('truetype'),
+		 url('/css/fonts/AvenirNextLTMedium.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AvenirNextLTDemi';
+	src: url('/css/fonts/AvenirNextLTDemi.woff') format('woff'),
+		 url('/css/fonts/AvenirNextLTDemi.ttf') format('truetype'),
+		 url('/css/fonts/AvenirNextLTDemi.svg#99affa9a-a5e9-4559-bd07-20cf0071852d') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*s-page.css*/
+* {font-family: "AvenirNextLTMedium", Arial, Verdana, sans-serif; font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+}
+html {height: 100%;}
+body {background: #ffffff; margin: 0; overflow-y: scroll;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {padding: 0; margin: 0; font-size: 13px; line-height: 1em; color: #272727;}
+ul {list-style: none;}
+a {text-decoration: none; cursor: pointer;}
+a:hover {text-decoration: underline; color: black;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+fieldset {border: none;}
+input, select, textarea {font-size: 14px;}
+input, textarea {outline: none;}
+#page {position: relative; overflow: hidden; text-align: center; font-size: 0;}
+.feedfetcherimages {display: none;}
+
+/*s-content.css*/
+#header {position: fixed; left: 0; top: 0; z-index: 10; width: 100%; height: 65px; font-size: 0; text-align: center; background: #ffffff;}
+#header .servicenavigation {display: none;}
+#navigation {width: 876px; height: 100%; display: inline-block; vertical-align: top; font-size: 0; text-align: left;
+	background: transparent url(/img/logo.png) no-repeat right center;
+	background-size: 302px auto;
+}
+.scale110 #navigation {background-size: 332px auto;}
+.scale120 #navigation {background-size: 362px auto;}
+.scale130 #navigation {background-size: 392px auto;}
+.scale140 #navigation {background-size: 422px auto;}
+.scale150 #navigation {background-size: 453px auto;}
+.scale160 #navigation {background-size: 483px auto;}
+.scale170 #navigation {background-size: 513px auto;}
+#navigation ul {font-size: 0; display: inline-block; vertical-align: top; height: 100%; display: table;}
+#navigation ul li {font-size: 13px; text-transform: uppercase; padding-right: 35px; display: table-cell; vertical-align: middle; height: 100%;}
+.scale110 #navigation ul li {padding-right: 38px; font-size: 14px;}
+.scale120 #navigation ul li {padding-right: 42px; font-size: 15px;}
+.scale130 #navigation ul li {padding-right: 45px; font-size: 16px;}
+.scale140 #navigation ul li {padding-right: 48px; font-size: 17px;}
+.scale150 #navigation ul li {padding-right: 52px; font-size: 18px;}
+.scale160 #navigation ul li {padding-right: 55px; font-size: 19px;}
+.scale170 #navigation ul li {padding-right: 58px; font-size: 20px;}
+#navigation ul li a {color: #aaaaaa; display: block; padding: 10px 0;}
+#navigation ul li:hover a,
+#navigation ul li.selected a {color: #272727; text-decoration: none;}
+#content {display: inline-block; vertical-align: top; width: 876px; opacity: 0;}
+#content h1 {display: none;}
+#content h2 {padding: 0 5% 2.3%; font-size: 32px; color: #ffffff; text-transform: uppercase; line-height: 40px;
+	font-family: "AvenirNextLTDemi", Arial, Verdana, sans-serif;
+}
+.scale110 #content h2 {font-size: 35px; line-height: 43px;}
+.scale120 #content h2 {font-size: 38px; line-height: 46px;}
+.scale130 #content h2 {font-size: 41px; line-height: 49px;}
+.scale140 #content h2 {font-size: 44px; line-height: 52px;}
+.scale150 #content h2 {font-size: 47px; line-height: 55px;}
+.scale160 #content h2 {font-size: 50px; line-height: 58px;}
+.scale170 #content h2 {font-size: 53px; line-height: 61px;}
+#content h1 a,
+#content h1 span,
+#content h2 a,
+#content h2 span,
+#content p a,
+#content p span,
+#content li a,
+#content li span {font-size: inherit; color: inherit; line-height: inherit;}
+#content ul {margin: 0 5% 5%; padding: 3.5% 4% 4.5%; background: #ffffff; font-size: 0;}
+#content ul li {font-size: 13px; line-height: 20px; text-transform: uppercase; width: 25%; display: inline-block; vertical-align: top;}
+.scale110 #content ul li {font-size: 14px; line-height: 22px;}
+.scale120 #content ul li {font-size: 15px; line-height: 24px;}
+.scale130 #content ul li {font-size: 16px; line-height: 26px;}
+.scale140 #content ul li {font-size: 17px; line-height: 28px;}
+.scale150 #content ul li {font-size: 18px; line-height: 30px;}
+.scale160 #content ul li {font-size: 19px; line-height: 32px;}
+.scale170 #content ul li {font-size: 20px; line-height: 34px;}
+#content .scene {position: relative; height: 493px; padding: 65px 0 0; text-align: left; background-position: center bottom; background-color: transparent; background-repeat: no-repeat; background-size: 100% auto;}
+#content .scene .table {display: table; width: 100%; height: 100%; position: relative;}
+#content .scene .cell {display: table-cell; vertical-align: bottom;}
+#content .scene.front {}
+#content .scene.front .cell {vertical-align: middle;}
+#content .scene.front h2 {padding-bottom: 0;}
+#content .scene.front p.video {position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0; z-index: 5; background-position: center center; background-repeat: no-repeat; background-color: transparent; background-image: url(/img/bn_play.png); text-indent: -9999px; cursor: pointer; overflow: hidden;
+	background-size: 85px auto;
+}
+.scale110 #content .scene.front p.video {background-size: 86px auto;}
+.scale120 #content .scene.front p.video {background-size: 86px auto;}
+.scale130 #content .scene.front p.video {background-size: 86px auto;}
+.scale140 #content .scene.front p.video {background-size: 86px auto;}
+.scale150 #content .scene.front p.video {background-size: 114px auto;}
+.scale160 #content .scene.front p.video {background-size: 114px auto;}
+.scale170 #content .scene.front p.video {background-size: 114px auto;}
+#content .scene.front .videoplayer {position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 7; background-color: #000000; overflow: hidden;}
+#content .scene.front video {position: absolute; left: -1px; top: 0; width: 100.5%; height: 100.5%; z-index: 8;}
+#content .scene.front object {position: absolute; left: -1px; top: 0; width: 100.5%; height: 100.5%; z-index: 8;}
+#content .scene.front .videoplayer .controls {position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 9; background-position: center center; background-repeat: no-repeat; background-color: transparent; background-image: url(/img/bn_play.png); cursor: pointer;
+	background-size: 86px auto;
+}
+#content .scene.front .videoplayer.playing .controls {background-image: url(/img/bn_pause.png);}
+.scale110 #content .scene.front .videoplayer .controls {background-size: 86px auto;}
+.scale120 #content .scene.front .videoplayer .controls {background-size: 86px auto;}
+.scale130 #content .scene.front .videoplayer .controls {background-size: 86px auto;}
+.scale140 #content .scene.front .videoplayer .controls {background-size: 86px auto;}
+.scale150 #content .scene.front .videoplayer .controls {background-size: 114px auto;}
+.scale160 #content .scene.front .videoplayer .controls {background-size: 114px auto;}
+.scale170 #content .scene.front .videoplayer .controls {background-size: 114px auto;}
+#content .scene.clients {margin-top: -23px;}
+#content .scene.clients h2 {}
+#content .scene.competences {margin-top: -23px;}
+#content .scene.competences h2 {}
+#content .scene.contact {margin-top: -23px;}
+#content .scene.contact h2 {}
+#content .vcard {margin: 0 5% 5%; padding: 3.5% 4% 4.5%; background: #ffffff; position: relative; font-size: 0;}
+#content .vcard * {line-height: 20px; font-size: 13px; color: #272727;}
+.scale110 #content .vcard * {line-height: 21px; font-size: 14px;}
+.scale120 #content .vcard * {line-height: 22px; font-size: 15px;}
+.scale130 #content .vcard * {line-height: 23px; font-size: 16px;}
+.scale140 #content .vcard * {line-height: 24px; font-size: 17px;}
+.scale150 #content .vcard * {line-height: 25px; font-size: 18px;}
+.scale160 #content .vcard * {line-height: 26px; font-size: 19px;}
+.scale170 #content .vcard * {line-height: 27px; font-size: 20px;}
+#content .vcard .column {width: 24%; display: inline-block; vertical-align: top; padding-right: 4%;}
+#content .vcard .org,
+#content .vcard .geo {display: none;}
+#content .vcard .tel {}
+#content .vcard .email a {text-decoration: none; color: #808285;}
+#content .vcard .email a:hover {text-decoration: underline; color: #272727;}
+#content .vcard .column.social {width: 18%; padding-right: 0;}
+#content .vcard .facebook a,
+#content .vcard .linkedin a,
+#content .vcard .twitter a {text-decoration: none; color: #808285;}
+#content .vcard .facebook a:hover,
+#content .vcard .linkedin a:hover,
+#content .vcard .twitter a:hover {text-decoration: underline; color: #272727;}
+#content .vcard .jobs {width: 50%; display: inline-block; vertical-align: top; padding-right: 4%;}
+#content .vcard .jobs p {padding-bottom: 0;}
+#content .vcard .jobs p a {padding-bottom: 0 !important;}
+#content .vcard .jobs p a {text-decoration: none; color: #808285;}
+#content .vcard .jobs p a:hover {text-decoration: underline; color: #272727;}
+#content .vcard .jobs p.job {padding-bottom: 20px;}
+.scale110 #content .vcard .jobs p.job {padding-bottom: 22px;}
+.scale120 #content .vcard .jobs p.job {padding-bottom: 24px;}
+.scale130 #content .vcard .jobs p.job {padding-bottom: 26px;}
+.scale140 #content .vcard .jobs p.job {padding-bottom: 28px;}
+.scale150 #content .vcard .jobs p.job {padding-bottom: 30px;}
+.scale160 #content .vcard .jobs p.job {padding-bottom: 32px;}
+.scale170 #content .vcard .jobs p.job {padding-bottom: 34px;}
+#content .scene.contact .cookies {position: absolute; bottom: -24px; right: 0;}
+#content .scene.contact .cookies a.readmore {font-size: 9px; color: #4d4d4d;}
+#content .scene.contact .cookieterms {display: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 9; background: #efeff0 url(/img/bn_close.png) no-repeat 98.5% 3%; cursor: pointer;}
+#content .scene.contact .cookieterms h2 {padding: 4% 4% 2%; width: 75%; font-size: 14px; text-transform: uppercase; display: block; color: #272727;}
+#content .scene.contact .cookieterms p {padding: 0 4% 19px; width: 75%; font-size: 13px; line-height: 19px;}
+.scale110 #content .scene.contact .cookieterms h2 {font-size: 14px;}
+.scale120 #content .scene.contact .cookieterms h2 {font-size: 14px;}
+.scale130 #content .scene.contact .cookieterms h2 {font-size: 15px;}
+.scale140 #content .scene.contact .cookieterms h2 {font-size: 16px;}
+.scale150 #content .scene.contact .cookieterms h2 {font-size: 17px;}
+.scale160 #content .scene.contact .cookieterms h2 {font-size: 17px;}
+.scale170 #content .scene.contact .cookieterms h2 {font-size: 18px;}
+.scale110 #content .scene.contact .cookieterms p {font-size: 13px; line-height: 19px}
+.scale120 #content .scene.contact .cookieterms p {font-size: 13px; line-height: 19px}
+.scale130 #content .scene.contact .cookieterms p {font-size: 14px; line-height: 20px}
+.scale140 #content .scene.contact .cookieterms p {font-size: 14px; line-height: 20px}
+.scale150 #content .scene.contact .cookieterms p {font-size: 15px; line-height: 22px}
+.scale160 #content .scene.contact .cookieterms p {font-size: 15px; line-height: 22px}
+.scale170 #content .scene.contact .cookieterms p {font-size: 16px; line-height: 23px}
+

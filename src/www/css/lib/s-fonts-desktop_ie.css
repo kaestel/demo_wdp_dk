@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'AvenirNextLTMedium';
+	src: url('/css/fonts/AvenirNextLTMedium.eot');
+	src: url('/css/fonts/AvenirNextLTMedium.eot?#iefix') format('embedded-opentype'),
+		 url('/css/fonts/AvenirNextLTMedium.woff') format('woff'),
+		 url('/css/fonts/AvenirNextLTMedium.ttf') format('truetype'),
+		 url('/css/fonts/AvenirNextLTMedium.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNextLTDemi';
+	src: url('/css/fonts/AvenirNextLTDemi.eot');
+	src: url('/css/fonts/AvenirNextLTDemi.eot?#iefix') format('embedded-opentype'),
+		 url('/css/fonts/AvenirNextLTDemi.woff') format('woff'),
+		 url('/css/fonts/AvenirNextLTDemi.ttf') format('truetype'),
+		 url('/css/fonts/AvenirNextLTDemi.svg#99affa9a-a5e9-4559-bd07-20cf0071852d') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

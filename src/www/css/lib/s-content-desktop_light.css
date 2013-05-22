@@ -1,0 +1,34 @@
+#navigation {background-image: url(/img/desktop_light/logo.png); background-size: auto auto;}
+
+#content {opacity: 1;}
+
+#content .scene.front {background-image: url(/img/desktop_light/pi_front.jpg);}
+#content .scene.clients {background-image: url(/img/desktop_light/pi_clients.jpg);}
+#content .scene.competences {background-image: url(/img/desktop_light/pi_about.jpg);}
+#content .scene.contact {background-image: url(/img/desktop_light/pi_contact.jpg);}
+
+#content .scene.front p.video {opacity: 1; background-image: url(/img/desktop_light/bn_play.png); background-size: auto auto;}
+#content .scene.front .videoplayer .controls {background-image: url(/img/desktop_light/bn_play.png); background-size: auto auto;
+	font-size: 100px;
+	/*width: 85px; height: 85px; left: 50%; top: 50%; margin-left: -42px; margin-top: -42px; z-index: 9;*/
+}
+#content .scene.front .videoplayer .controls.hidden {background-position: 0 -100px;}
+
+#content .scene.front .videoplayer.playing .controls {background-image: url(/img/desktop_light/bn_pause.png);}
+#content .scene.front .videoplayer.playing .controls.hidden {background-position: 0 -100px;}
+
+
+
+#navigation {*display: inline; *zoom: 1;}
+#navigation ul {*display: inline; *zoom: 1;}
+#navigation ul li {*display: inline; *zoom: 1; *padding-top: 17px;}
+
+#content {*display: inline; *zoom: 1;}
+#content ul li {*display: inline; *zoom: 1; *width: 24%;}
+#content .vcard .column {*display: inline; *zoom: 1;}
+#content .vcard .jobs {*display: inline; *zoom: 1;}
+
+#content .scene.front h2 {*margin-top: 230px;}
+#content .scene.clients ul {*margin-top: 42px;}
+#content .scene.competences ul {*margin-top: 42px;}
+#content .scene.contact .vcard {*margin-top: 42px;}

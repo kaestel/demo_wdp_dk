@@ -1,0 +1,207 @@
+
+/*s-fonts.css*/
+@font-face {
+	font-family: 'BreeSerifRegular';
+	src: url('/css/fonts/breeserif-regular-webfont.woff') format('woff'),
+		 url('/css/fonts/breeserif-regular-webfont.ttf') format('truetype'),
+		 url('/css/fonts/breeserif-regular-webfont.svg#BreeSerifRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSansLight';
+	src: url('/css/fonts/opensans-light-webfont.woff') format('woff'),
+		 url('/css/fonts/opensans-light-webfont.ttf') format('truetype'),
+		 url('/css/fonts/opensans-light-webfont.svg#OpenSansLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'OpenSansSemibold';
+	src: url('/css/fonts/opensans-semibold-webfont.woff') format('woff'),
+		 url('/css/fonts/opensans-semibold-webfont.ttf') format('truetype'),
+		 url('/css/fonts/opensans-semibold-webfont.svg#OpenSansSemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*s-page.css*/
+* {color: #303337; font-family: "OpenSansLight", Arial, sans-serif; font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+}
+html {height: 100%; overflow-y : scroll;}
+body {background: #ffffff; margin: 0; height: 100%;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0;}
+a {text-decoration: none; cursor: pointer;}
+a:hover {text-decoration: underline; color: #303337;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0;}
+input, select, textarea {}
+textarea, input {outline: none;}
+#page {position: relative; width: 960px; margin: 0 auto; text-align: left; z-index: 1;}
+#page .feedfetcherimages {display: none;}
+
+
+/*s-header.css*/
+#header {border-top: 10px solid #303337; position: relative;}
+#header .servicenavigation {display: none;}
+#header .role {font-size: 41px; padding: 18px 12px 21px; display: inline-block; cursor: pointer;}
+#header .description {font-size: 13px; line-height: 18px; position: absolute; right: 12px; bottom: 0px; width: 216px;}
+
+/*s-navigation.css*/
+#navigation {border-bottom: 4px solid #303337;}
+#navigation ul {list-style: none; font-size: 0;}
+#navigation ul li {display: inline-block; vertical-align: top; width: 216px; margin: 0 12px; border-top: 1px solid #303337;}
+#navigation ul li h3 a {font-size: 20px; display: block; padding: 0 0 2px;
+	font-family: "BreeSerifRegular";
+}
+#navigation ul li h3 a:hover,
+.work #navigation .work a,
+.cases #navigation .work a,
+.about #navigation .about a,
+.contact #navigation .contact a {color: #33b6c5; text-decoration: none;}
+#navigation ul li.cases {display: none;}
+
+/*s-content.css*/
+.c {font-size: 0;}
+.c400, .c300, .c200, .c100, .c50 {display: inline-block; vertical-align: top; font-size: 0; min-height: 10px;}
+.c400 {width: 960px;}
+.c300 {width: 7200px;}
+.c200 {width: 480px;}
+.c100 {width: 240px;}
+.c50 {width: 120px;}
+#content {font-size: 0; min-height: 100px; opacity: 0; position: relative; padding: 0;}
+#content h1 {font-size: 30px; line-height: 38px; padding: 30px 12px 17px;}
+#content h2 {font-size: 22px; line-height: 28px; padding: 0 12px 21px;
+	font-family: "BreeSerifRegular";
+}
+#content h3 {font-size: 13px; padding: 0 12px; line-height: 20px;
+	font-family: "OpenSansSemibold";
+}
+#content h4 {font-size: 13px; padding: 0 12px; line-height: 20px;}
+#content p {font-size: 13px; padding: 0 12px 20px; line-height: 20px;}
+#content a {color: #16a7b8;}
+#content a:hover {}
+#content ul {padding: 0 12px; list-style: none;}
+#content ul li {font-size: 13px; line-height: 20px;}
+#content dl {padding: 0 12px; overflow: hidden;}
+#content dt {float: left; clear: left; font-size: 13px; padding: 0 10px 0 0; line-height: 20px;
+	font-family: "OpenSansSemibold";
+}
+#content dd {float: left; clear: right; font-size: 13px; line-height: 20px;}
+#content .vcard * {font-size: 13px;}
+body.fullscreen {}
+#fullscreen {position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: 5; display: none; opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+}
+.work #content {padding-top: 30px;}
+.work #content ul.work {padding: 0 0 6px; font-size: 0;}
+.work #content ul.work li {display: inline-block; width: 216px; height: 150px; position: relative; vertical-align: top; cursor: pointer; background-color: transparent; background-repeat: no-repeat; background-position: center top; overflow: hidden; margin: 0 12px 24px;}
+.work #content ul.work li.loading {background: transparent url(/img/gx_loader.gif) no-repeat center center;}
+.work #content ul.work li h3 {position: absolute; left: 0; top: 150px; width: 192px; height: 75px; padding-bottom: 0; background: rgba(48, 51, 55, 0.8) url(/img/bg_icons.png) no-repeat 188px -574px;}
+.work #content ul.work li h3 a {display: table-cell; height: 69px; vertical-align: middle; color: #ffffff; text-decoration: none; font-size: 13px; line-height: 17px; padding: 0 60px 0 0;}
+.work #content ul.work li p,
+.work #content ul.work li h3 span {display: none;}
+.cases #content .scene {font-size: 0;}
+.cases #content .case {display: inline-block; vertical-align: top; width: 720px; padding: 30px 0 10px;}
+.cases #content .case ul.images {text-align: right; font-size: 0;}
+.cases #content .case ul.images li {display: inline-block; vertical-align: top; padding: 0 0 0 4px; text-align: left;}
+.cases #content .case ul.images li a {display: block; text-indent: -9999px; background: #bbbec0; width: 10px; height: 7px;}
+.cases #content .case ul.images li.selected a {background: #33b6c5;}
+.cases #content .case .gallery {width: 696px; height: 435px; margin: 0 12px 12px; position: relative; overflow: hidden;}
+.cases #content .case .gallery ul.images {width: 696px; height: 435px; padding: 0;}
+.cases #content .case .gallery.loading ul.images {background: transparent url(/img/gx_loader.gif) no-repeat center center;}
+.cases #content .case .gallery ul.images li {width: 696px; height: 435px; display: none; padding: 0; position: absolute;}
+.cases #content .case .gallery ul.images li a {display: none;}
+.cases #content .case .gallery .next {width: 50px; height: 50px; background: transparent url(/img/bg_icons.png) no-repeat 5px 0; position: absolute; top: 50%; margin-top: -50px; right: 0px; cursor: pointer;}
+.cases #content .case .gallery .next:hover {background-position: 5px -100px;}
+.cases #content .case .gallery .prev {width: 50px; height: 50px; background: transparent url(/img/bg_icons.png) no-repeat 5px -50px; position: absolute; top: 50%; margin-top: 0px; right: 0px; cursor: pointer;}
+.cases #content .case .gallery .prev:hover {background-position: 5px -150px;}
+.cases #content .case .gallery .zoom {width: 50px; height: 50px; background: transparent url(/img/bg_icons.png) no-repeat 10px -190px; position: absolute; top: 0; margin-top: 0px; right: 0px; cursor: pointer;}
+.cases #content .case .description ul {padding-bottom: 18px;}
+.cases #content .cases {display: inline-block; vertical-align: top; width: 240px;}
+.cases #content .cases h1 {padding-top: 22px;}
+.cases #content .cases ul.cases {border-top: 1px solid #303337; padding: 0; margin: 10px 12px 40px; width: 216px;}
+.cases #content .cases ul.cases li {padding: 10px 0; border-bottom: 1px solid #303337;}
+.cases #content .cases ul.cases li a {color: #303337; display: block; font-size: 12px;}
+.cases #content .cases ul.cases li.selected a,
+.cases #content .cases ul.cases li:hover a {color: #16a7b8; text-decoration: none;}
+.cases #content .cases ul.actions {border-bottom: 4px solid #303337; padding: 0; margin: 0 12px;}
+.cases #content .cases ul.actions li a {font-size: 20px; color: #303337;
+	font-family: "BreeSerifRegular";
+}
+.cases #content .cases ul.actions li:hover a {color: #33b6c5; text-decoration: none;}
+.cases #fullscreen {position: relative;}
+.cases #fullscreen .gallery {width: 960px; height: 600px; font-size: 0; position: absolute; left: 50%; margin-left: -480px; top: 50%; margin-top: -300px; overflow: hidden;}
+.cases #fullscreen .gallery ul.images {width: 960px; height: 600px; display: inline-block; vertical-align: top;}
+.cases #fullscreen .gallery.loading ul.images {background: transparent url(/img/gx_loader.gif) no-repeat center center;}
+.cases #fullscreen .gallery ul.images li {width: 960px; height: 600px; display: none; background-repeat: no-repeat; background-color: transparent; background-position: center center; position: absolute;}
+.cases #fullscreen .gallery .prev {position: absolute; width: 50px; height: 50px; left: 50%; margin-left: 430px; top: 50%; margin-top: 0; z-index: 100; background: transparent url(/img/bg_icons.png) no-repeat 5px -50px; cursor: pointer;}
+.cases #fullscreen .gallery .prev:hover {background-position: 5px -150px;}
+.cases #fullscreen .gallery .next {position: absolute; width: 50px; height: 50px; left: 50%; margin-left: 430px; top: 50%; margin-top: -50px; z-index: 100; background: transparent url(/img/bg_icons.png) no-repeat 5px 0px; cursor: pointer;}
+.cases #fullscreen .gallery .next:hover {background-position: 5px -100px;}
+.cases #fullscreen .close {position: absolute; width: 50px; height: 50px; left: 50%; margin-left: 430px; top: 50%; margin-top: -300px; z-index: 120; background: transparent url(/img/bg_icons.png) no-repeat 15px -240px;  cursor: pointer;}
+.about #content .subnavigation {font-size: 0; z-index: 10; border-bottom: 2px solid #303337; padding: 0; height: 30px;}
+.about #content .subnavigation ul {background: transparent url(/img/bg_icons.png) no-repeat -100px -400px; padding: 0;}
+.about #content .subnavigation li {display: inline-block; vertical-align: top; padding: 6px 12px; font-size: 13px; cursor: pointer; height: 24px;
+	font-family: "OpenSansLight";
+}
+.about #content .subnavigation li:hover,
+.about #content .about .subnavigation .about,
+.about #content .experience .subnavigation .experience,
+.about #content .clients .subnavigation .clients,
+.about #content .awards .subnavigation .awards,
+.about #content .testimonials .subnavigation .testimonials {color: #16a7b8;}
+.about #content .section {opacity: 0; padding: 0; display: none;}
+.about #content .section.about {padding-bottom: 10px;}
+.about #content .section.about .image {padding: 8px 12px 0;}
+.about #content .section.experience {padding-bottom: 30px;}
+.about #content .section.experience dt {width: 92px;}
+.about #content .section.experience dd {width: 352px;}
+.about #content .section.clients {padding-bottom: 30px;}
+.about #content .section.clients ul li {padding-bottom: 0px;}
+.about #content .section.testimonials {padding-bottom: 10px;}
+.about #content .section.testimonials .author {font-size: 13px; padding: 0 12px 20px; margin-top: -20px; line-height: 20px;
+	font-family: "OpenSansSemibold";
+}
+.about #content .section.awards {padding-bottom: 10px;}
+.about #content .section.awards ul {padding-bottom: 20px;}
+.about #content .section.awards h3 {}
+.contact #content .scene {padding-bottom: 10px;}
+.contact #content dt {float: none; display: block;}
+.contact #content dd {float: none; display: block; padding-bottom: 20px;}
+.contact #content dd .geo {display: none;}
+.contact #content dd a.email,
+.contact #content dd a.tel,
+.contact #content dd a.twitter {color: #303337;}
+.contact #content dd a.email:hover,
+.contact #content dd a.tel:hover,
+.contact #content dd a.twitter:hover {text-decoration: underline;}
+.contact #content div.twitter {padding-bottom: 20px; overflow: hidden;}
+.contact #content .twitter ul div {font-size: 10px; text-transform: uppercase;
+	font-family: "OpenSansSemibold";
+}
+.contact #content .twitter ul p {padding: 0 0 24px;}
+.contact #content .twitter div.follow {font-size: 13px; line-height: 1em; padding: 8px 20px 8px 33px; background: transparent url(/img/bg_icons.png) no-repeat 12px -300px; display: block;}
+.error404 #content {padding-bottom: 9px;}
+.error404 #content h2 {width: 456px;}
+
+
+/*s-footer.css*/
+#footer {padding: 30px 0 0; margin: 0; height: 120px; background: #303337; opacity: 0;}
+#footer .vcard {width: 936px; margin: 0 auto; padding: 0 12px;}
+#footer .vcard * {font-size: 13px; line-height: 18px; color: #ffffff;}
+#footer .vcard .callme {padding: 0 0 19px; font-size: 29px; line-height: 1em;}
+#footer .vcard .callme a {font-size: 100%;}
+#footer .vcard .name,
+#footer .vcard .role,
+#footer .vcard .email,
+#footer .vcard .adr,
+#footer .vcard .twitter,
+#footer .vcard .description {display: none;}
+#footer .site_info {width: 456px;}
+
+/*s-content-mobile_light.css*/
+

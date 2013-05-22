@@ -1,0 +1,20 @@
+#header {height: 120px;}
+#navigation {background-position: right center; background-size: auto auto;}
+#navigation ul {display: none;}
+
+#content .scene.front {background-image: url(/img/desktop_light/pi_front.jpg); padding-top: 120px;}
+
+#content .scene.clients {display: none;}
+#content .scene.competences {display: none;}
+
+#content .scene.contact {height: auto;}
+
+#content .scene.contact .jobs {display: none;}
+
+#content .scene.contact .vcard {padding-left: 0; margin-left: 0;}
+#content .scene.contact .vcard * {font-size: 30px; line-height: 40px;}
+
+#content .scene.contact .vcard .column {width: 100%; padding: 30px 0;}
+#content .scene.contact .vcard .column.social {display: none;}
+
+#content .scene.contact .vcard .cookies {display: none;}
