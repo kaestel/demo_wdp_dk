@@ -138,9 +138,9 @@
 							</div>
 						</div>
 						<div class="jobs">
-							<p class="job">
+							<!--p class="job">
 								Vi søger lige nu en praktikant til jobbet som klippe- og research assistent. Læs mere <a href="/media/pdf/WDP_Praktikant.pdf" target="_blank">her</a>.
-							</p>
+							</p-->
 							<p>
 								Vi leder altid efter ildsjæle. Så hvis du mener, at du kan<br />
 								gøre en forskel, så er du meget velkommen til at sende os<br />
